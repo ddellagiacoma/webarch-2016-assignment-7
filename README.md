@@ -46,7 +46,7 @@ In addition, two **filters** has been implemented:
 * FilterLogin
 * FilterAdministrator
 
-The following remote interfaces are also present in order to access the EJB already existing:
+The following remote **interfaces** are also present in order to access the EJB already existing:
 
 * AccountRemote
 * OperationRemote
