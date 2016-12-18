@@ -180,3 +180,9 @@ Now, connecting to the address **http://localhost:8081/BookStoreWeb/** it is pos
 The following table shows the websites:
 
 ![image](https://cloud.githubusercontent.com/assets/24565161/21272075/fcd59a56-c3bd-11e6-9438-067a0ebaed32.png)
+
+## 4. COMMENTS AND NOTES
+
+To deploy an application on  separate Web Tier (a stand-alone Tomcat) and Application Tier (Wildfly), read the following:
+
+http://javafortheweb.blogspot.it/2012/12/accessing-remote-ejb-on-jboss-as-71.html
