@@ -177,7 +177,7 @@ The Tomcat port should be changed from 8080 to something else (8081 in my case) 
 
 Now, connecting to the address **http://localhost:8081/BookStoreWeb/** it is possible to navigate into the website.
 
-The following table shows the websites:
+The following table shows the website:
 
 ![image](https://cloud.githubusercontent.com/assets/24565161/21272075/fcd59a56-c3bd-11e6-9438-067a0ebaed32.png)
 
