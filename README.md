@@ -139,6 +139,7 @@ As can be seen, the **LoginFilter** controls if there is a session and if the se
 
 The **AdministratorFilter** acts after the **LoginFilter**. Its task is to prevent that users navigate to administrator
 servlets and JSPs.
+
 ```xml
 <filter-mapping>
   <filter-name>FilterAdministrator</filter-name>
@@ -160,9 +161,9 @@ To run the application is important configure correctly the environment.
 
 First of all, it is necessary to run Apache Derby typing the following command:
 
-**java –jar DERBY_HOME/lib/derbyrun.jar server start &**
-
-![image](https://cloud.githubusercontent.com/assets/24565161/21272054/e6bca052-c3bd-11e6-9c4f-8c6ce2e0774c.png)
+```
+java –jar DERBY_HOME/lib/derbyrun.jar server start &
+```
 
 Now WildFly can be started launching the **standalone.bat** (or **standalone.sh**) file. **The BookStoreEE.ear** file
 should be already present in the deployments folder of WildFly.
